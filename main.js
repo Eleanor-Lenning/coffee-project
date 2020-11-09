@@ -2,9 +2,9 @@
 var myInput = document.getElementById("myInput")
 
 function renderCoffee(coffee) {
-    var html = '<div class="coffee card col-lg-4 col-md-6 col-xsm-12" style="background-color: #ead5c0">';
-    html += '<img src="img/card4light.jpg" style="border: solid 3px #483018">' + '</>';
-    html += '<strong class="text-center">' + coffee.name + '</strong>';
+    var html = '<div class="coffee card col-lg-4 col-md-6 col-xsm-12" style="background-color: #ead5c0; border: none">';
+    html += '<img src="img/card4light.jpg" style="border: solid 3px #483018; border-radius: 50%; width: 100%" >' + '</>';
+    html += '<strong class="text-center" style="font-size: 1.5em">' + coffee.name + '</strong>';
     html += '<p>' + coffee.text + '</p>';
 
     html += '</div>';
@@ -16,7 +16,7 @@ var inputValue = myInput.value
 
 function renderCoffees(coffees) {
     var html = '';
-    for(var i = coffees.length - 1; i >= 0; i--) {
+    for(var i = 0; i < coffees.length - 0; i++) {
 
         html += renderCoffee(coffees[i]);
     }

@@ -16,7 +16,7 @@ td, th {
 
 .navbar-main {
     display: flex;
-    background-color: #cfac74;
+    background-color: #d9b38c;
 
 }
 
@@ -25,12 +25,12 @@ td, th {
 }
 
 .icons {
-    background-color: DodgerBlue; /* Blue background */
+    /*background-color: DodgerBlue; !* Blue background *!*/
     border: none; /* Remove borders */
     color: white; /* White text */
     padding: 12px 16px; /* Some padding */
     font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    /*cursor: pointer; !* Mouse pointer on hover *!*/
 }
 
 .fa-instagram, .fa-twitter-square {
@@ -38,7 +38,7 @@ td, th {
 }
 /* Darker background on mouse-over */
 .btn:hover {
-    background-color: RoyalBlue;
+    background-color: none;
 }
 
 /*jumbotron code begins*/
@@ -79,6 +79,7 @@ td, th {
 
 }
 
+
 /*.btn-group {*/
 /*    background-color: #483018 ;*/
 
@@ -92,5 +93,20 @@ td, th {
 #myInput {
     float: right;
     margin: 5px;
-    background-color: #cfac74;
+    background-color: #483018;
+
+    border-radius: 10px;
+    border: solid 3px #483018;
+    color: #f2e5d8;
+
+}
+::placeholder{
+    color: #b9b3ac;
+
+}
+
+
+
+.coffee{
+    border-radius: 15px;
 }
